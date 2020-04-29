@@ -5,6 +5,8 @@ Integration with django and rasa -You can improve your models and work like char
 In Credentials of rasa chat dont forget to add
 
 
+rasa run -m models --enable-api --cors "*" --debug
+
 socketio:
   user_message_evt: user_uttered
   bot_message_evt: bot_uttered
